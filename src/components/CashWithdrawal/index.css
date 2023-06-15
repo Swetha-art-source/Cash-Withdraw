@@ -1,0 +1,171 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.balance-container {
+  background-color: #150b3e;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.text {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  text-align: center;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+.balance-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #585076;
+  margin-right: 20px;
+}
+.balance-amount {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+}
+.balanceInRupee {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+  margin-right: 20px;
+}
+.heading {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  margin: 20px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500px;
+  color: #585076;
+  margin: 20px;
+}
+.denominations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .balance-container {
+    background-color: #150b3e;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  .name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    background-color: #c7d2fe;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .text {
+    font-family: 'Roboto';
+    color: #7c3aed;
+    text-align: center;
+  }
+  .name {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #d4d2db;
+    margin-left: 20px;
+  }
+  .balance-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .balance {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #585076;
+    margin-right: 20px;
+  }
+  .balance-amount {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: #d4d2db;
+  }
+  .balanceInRupee {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #585076;
+    margin-right: 20px;
+  }
+  .heading {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #d4d2db;
+    margin: 20px;
+  }
+  .para {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500px;
+    color: #585076;
+    margin: 20px;
+  }
+  .denominations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.btn {
+  background-color: #382f5a;
+  border: 2px solid #c4c4c4;
+  height: 30px;
+  width: 90px;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+  color: #c4c4c4;
+}
